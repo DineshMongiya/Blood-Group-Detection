@@ -1,0 +1,14 @@
+<!--{% load i18n %}-->
+<!--<form action="{% url 'set_language' %}" method="post">-->
+<!--    {% csrf_token %}-->
+<!--    <label for="language">{% trans "Select Language" %}</label>-->
+<!--    <select name="language" id="language" class="form-select">-->
+<!--        <option value="en" {% if LANGUAGE_CODE == 'en' %}selected{% endif %}>{% trans "English" %}</option>-->
+<!--        <option value="ta" {% if LANGUAGE_CODE == 'ta' %}selected{% endif %}>{% trans "Tamil" %}</option>-->
+<!--        <option value="hi" {% if LANGUAGE_CODE == 'hi' %}selected{% endif %}>{% trans "Hindi" %}</option>-->
+<!--        <option value="kn" {% if LANGUAGE_CODE == 'kn' %}selected{% endif %}>{% trans "Kannada" %}</option>-->
+<!--        <option value="te" {% if LANGUAGE_CODE == 'te' %}selected{% endif %}>{% trans "Telugu" %}</option>-->
+<!--        <option value="ml" {% if LANGUAGE_CODE == 'ml' %}selected{% endif %}>{% trans "Malayalam" %}</option>-->
+<!--    </select>-->
+<!--    <button type="submit" class="btn btn-secondary">{% trans "Change Language" %}</button>-->
+<!--</form>-->
